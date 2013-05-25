@@ -1,0 +1,3 @@
+[submodule "vendor/EventEmitter"]
+	path = vendor/EventEmitter
+	url = git://github.com/ericz/EventEmitter.git

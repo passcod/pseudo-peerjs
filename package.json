@@ -1,0 +1,29 @@
+{
+  "name": "pseudo-peerjs",
+  "version": "0.1.0",
+  "description": "Pseudo-P2P using WebSockets. Uses the same API as PeerJs",
+  "keywords": ["p2p", "peer", "peerjs", "websockets", "browser"],
+  "homepage": "https://github.com/passcod/pseudo-peerjs",
+  "author": "Félix Saparelli <https://passcod.name>",
+  "contributors": [
+    {"name": "Félix Saparelli", "email": "me@passcod.name"}
+  ],
+  "licenses": {
+    "type": "Public Domain",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/passcod/pseudo-peerjs.git"
+  },
+  "devDependencies": {
+    "docco":          "0.6.x",
+    "mocha":          "1.9.x",
+    "coffee-script":  "1.6.x"
+  },
+  "main": "./pseudo-peer",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "doc": "./node_modules/.bin/docco -o doc pseudo-peer.coffee"
+  }
+}
