@@ -19,4 +19,15 @@ class Peer extends EventEmitter
   connect: (id, options = {}) ->
   destroy: ->
   disconnect: ->
+
+
+class DataConnection extends EventEmitter
+  constructor: (peer, ws, options) ->
+    @peer = peer.id
+    @open = false
+    @metadata = options.metadata
+    @label = options.label
+    @serialization ||= options.serialization ||= 'binary'
   
+  send: (data) ->
+  close: ->
