@@ -1,3 +1,5 @@
+'use strict'
+
 class Peer extends EventEmitter
   @defaults =
     key: null
@@ -31,3 +33,9 @@ class DataConnection extends EventEmitter
   
   send: (data) ->
   close: ->
+
+
+this.peerjs =
+  Peer: Peer
+  DataConnection: DataConnection
+

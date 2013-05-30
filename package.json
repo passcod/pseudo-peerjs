@@ -19,7 +19,11 @@
   "devDependencies": {
     "docco":          "0.6.x",
     "mocha":          "1.9.x",
-    "coffee-script":  "1.6.x"
+    "coffee-script":  "1.6.x",
+
+    "grunt":                "0.4.x",
+    "grunt-contrib-coffee": "0.7.x",
+    "grunt-contrib-uglify": "0.2.x"
   },
   "main": "./pseudo-peer",
   "scripts": {
