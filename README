@@ -1,0 +1,6 @@
+so once upon a time i wrote something called "plong"
+which was essentially a very early TURN server
+https://github.com/passcod/plong-server
+
+and there was also something called "peerjs" out there
+so this was a peerjs-compatible library that talked to plong instead of via webrtc
